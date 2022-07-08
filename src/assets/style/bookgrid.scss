@@ -1,0 +1,39 @@
+.grid {
+  width: 100%;
+  padding: 0 40px;
+  display: grid;
+  // grid-template-columns: repeat(3, 1fr); // 小程序每一行每个元素全屏宽，超出宽度隐藏
+  grid-template-columns: repeat(3, 33.33%);
+  // opacity: 0.15;
+  .book {
+    text-align: center;
+    .cover-wrap {
+      position: relative;
+    }
+    .cover {
+      // max-width: 100%;
+      height: 240px;
+      // opacity: .1;
+    }
+    .name {
+      font-size: 30px;
+      line-height: 36px;
+      text-align: center;
+      color: antiquewhite;
+    }
+  }
+
+  .add-book {
+    height: 240px;
+    border: 3px solid silver;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .add-icon {
+      font-size: 100px;
+      fill: silver;
+      color: silver;
+    }
+  }
+}

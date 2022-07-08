@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2835320 */
+  src: url('iconfont.woff2?t=1634290558666') format('woff2'),
+       url('iconfont.woff?t=1634290558666') format('woff'),
+       url('iconfont.ttf?t=1634290558666') format('truetype'),
+       url('iconfont.svg?t=1634290558666#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-circle-fill-duihao:before {
+  content: "\e69e";
+}
+
+.icon-circle-duihao:before {
+  content: "\e610";
+}
+
+.icon-duihao:before {
+  content: "\e70d";
+}
+
+.icon-curving-arrow:before {
+  content: "\e628";
+}
+
+.icon-move:before {
+  content: "\e623";
+}
+
+.icon-share:before {
+  content: "\e630";
+}
+
+.icon-cancel-fullscreen:before {
+  content: "\e625";
+}
+
+.icon-lock:before {
+  content: "\e626";
+}
+
+.icon-unlock:before {
+  content: "\e627";
+}
+
+.icon-image-add:before {
+  content: "\e62c";
+}
+
+.icon-open-fullscreen:before {
+  content: "\e624";
+}
+
+.icon-arrow-right:before {
+  content: "\e774";
+}
+
+.icon-exit:before {
+  content: "\e647";
+}
+
+.icon-close:before {
+  content: "\e69a";
+}
+
+.icon-book-exit:before {
+  content: "\e760";
+}
+
+.icon-moon-stars:before {
+  content: "\e866";
+}
+
+.icon-sun:before {
+  content: "\e64c";
+}
+
+.icon-font-a:before {
+  content: "\ec85";
+}
+
+.icon-pause-circle:before {
+  content: "\ea6d";
+}
+
+.icon-play-circle:before {
+  content: "\ea6e";
+}
+
+.icon-font-shrink:before {
+  content: "\e60e";
+}
+
+.icon-font-magnify:before {
+  content: "\e60f";
+}
+
+.icon-list:before {
+  content: "\e622";
+}
+
+.icon-setting:before {
+  content: "\e8b7";
+}
+
+.icon-search:before {
+  content: "\e61e";
+}
+
+.icon-plus:before {
+  content: "\e6b6";
+}
+
+.icon-my:before {
+  content: "\e621";
+}
+
+.icon-booktable:before {
+  content: "\e620";
+}
+
+.icon-bookstore:before {
+  content: "\e61d";
+}
+
+.icon-read:before {
+  content: "\ebb9";
+}
+

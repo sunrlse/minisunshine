@@ -1,0 +1,219 @@
+{
+  "id": "2835320",
+  "name": "read",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1239935",
+      "name": "对号2",
+      "font_class": "circle-fill-duihao",
+      "unicode": "e69e",
+      "unicode_decimal": 59038
+    },
+    {
+      "icon_id": "429242",
+      "name": "对号",
+      "font_class": "circle-duihao",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "4933267",
+      "name": "对号",
+      "font_class": "duihao",
+      "unicode": "e70d",
+      "unicode_decimal": 59149
+    },
+    {
+      "icon_id": "7939955",
+      "name": "分享",
+      "font_class": "curving-arrow",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "12752356",
+      "name": "移动",
+      "font_class": "move",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "12752352",
+      "name": "分享",
+      "font_class": "share",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "12752440",
+      "name": "取消全屏",
+      "font_class": "cancel-fullscreen",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "12752509",
+      "name": "锁定",
+      "font_class": "lock",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "12752510",
+      "name": "解锁",
+      "font_class": "unlock",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "12753044",
+      "name": "添加图片",
+      "font_class": "image-add",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "12752439",
+      "name": "全屏",
+      "font_class": "open-fullscreen",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "1053869",
+      "name": "arrow_right",
+      "font_class": "arrow-right",
+      "unicode": "e774",
+      "unicode_decimal": 59252
+    },
+    {
+      "icon_id": "1160137",
+      "name": "exit",
+      "font_class": "exit",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "122691",
+      "name": "close",
+      "font_class": "close",
+      "unicode": "e69a",
+      "unicode_decimal": 59034
+    },
+    {
+      "icon_id": "5317132",
+      "name": "exit",
+      "font_class": "book-exit",
+      "unicode": "e760",
+      "unicode_decimal": 59232
+    },
+    {
+      "icon_id": "12310136",
+      "name": "moon_stars",
+      "font_class": "moon-stars",
+      "unicode": "e866",
+      "unicode_decimal": 59494
+    },
+    {
+      "icon_id": "970780",
+      "name": "太阳",
+      "font_class": "sun",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "6337472",
+      "name": "字体颜色",
+      "font_class": "font-a",
+      "unicode": "ec85",
+      "unicode_decimal": 60549
+    },
+    {
+      "icon_id": "7594046",
+      "name": "24gl-pauseCircle",
+      "font_class": "pause-circle",
+      "unicode": "ea6d",
+      "unicode_decimal": 60013
+    },
+    {
+      "icon_id": "7594051",
+      "name": "24gl-playCircle",
+      "font_class": "play-circle",
+      "unicode": "ea6e",
+      "unicode_decimal": 60014
+    },
+    {
+      "icon_id": "8137611",
+      "name": "字体缩小",
+      "font_class": "font-shrink",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "8137645",
+      "name": "字体放大",
+      "font_class": "font-magnify",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "9097247",
+      "name": "听书-目录",
+      "font_class": "list",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "11372694",
+      "name": "设置",
+      "font_class": "setting",
+      "unicode": "e8b7",
+      "unicode_decimal": 59575
+    },
+    {
+      "icon_id": "584707",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "2116650",
+      "name": "PLUS",
+      "font_class": "plus",
+      "unicode": "e6b6",
+      "unicode_decimal": 59062
+    },
+    {
+      "icon_id": "11468260",
+      "name": "个人中心",
+      "font_class": "my",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "5174981",
+      "name": "书桌",
+      "font_class": "booktable",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "5024130",
+      "name": "书架 书柜",
+      "font_class": "bookstore",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "19703836",
+      "name": "阅读",
+      "font_class": "read",
+      "unicode": "ebb9",
+      "unicode_decimal": 60345
+    }
+  ]
+}
