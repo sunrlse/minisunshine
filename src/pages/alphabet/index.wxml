@@ -1,0 +1,45 @@
+<view class="main-container">
+	<!-- 左侧滚动list -->
+  <scroll-view
+    wx:if="{{onsearch === false}}"
+    class='list-left' 
+    enhanced='true' 
+    show-scrollbar='false' 
+    scroll-into-view="{{id}}" 
+    scroll-y='true'
+    data-record="{{highlight}}"
+    catchscroll='scrollView'
+    bindscrolltolower='scrollBottom'
+  >
+  <!-- 推荐车型 -->
+    <!-- <view id="hot">
+      <view class="recommend-container">
+        <view class="each-recommend-style" wx:for="{{recommendList}}" wx:for-item="caritem" wx:key='index' data-record="{{caritem}}" catchtap="clickCar">
+          <image style="position: absolute;width:72rpx;height:72rpx" src="{{caritem.img}}"></image>
+        </view>
+      </view>
+    </view> -->
+    <!-- 车型list -->
+    <block wx:for="{{naviList}}" wx:if="{{item!='hot'}}" wx:key="index">
+      <view class="left-item" >
+        <view id="{{item}}">
+          <view style="position: sticky;top: 0;z-index: 10;background: #ECECEC;height:48rpx;padding-top:16rpx">{{item}}</view>
+          <view class="brand-line" wx:for="{{carlist[item]}}" wx:for-item="caritem" wx:key="index" data-record="{{caritem}}" catchtap="clickCar">
+            <block>
+              <image wx:if="{{caritem.img}}" style="width:80rpx;height:80rpx;margin-right:40rpx" src="{{caritem.img}}"></image>
+              <view wx:else class="none-img">none</view>
+            </block>
+            {{caritem.name}}
+          </view>
+        </view>
+      </view>
+    </block>
+  </scroll-view>
+  <!-- 右侧导航 -->
+  <view wx:if="{{onsearch === false}}" class="right-navi-container">
+    <view class="right-navi-item" wx:for="{{naviList}}" wx:key='index' style="{{item===highlight?'background:#1890ff':''}};{{item===highlight?'color:#FFF':''}}" data-record='{{item}}' catchtouchend="touchEnd" catchtouchstart="touchStart" catchtouchmove="touchMoveNavi">
+      <view class="navi-hover" wx:if="{{hoverText && hoverText === item}}">{{hoverText}}</view>
+      {{item==='hot'?'选':item}}
+    </view>
+  </view>
+</view>

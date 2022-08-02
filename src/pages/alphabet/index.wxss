@@ -1,0 +1,70 @@
+.main-container {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: #ECECEC;
+}
+.list-left {
+  margin-top: 130rpx;
+  width: 100vw;
+  height: calc(100vh - 130rpx);
+  z-index: -1;
+  background: #ECECEC;
+}
+.left-item {
+  padding: 0 50rpx 0 40rpx;
+}
+.brand-line {
+  display: flex;
+  align-items: center;
+  padding: 20rpx 24rpx;
+  color: #666666;
+  background: #FFF;
+}
+.none-img {
+  width: 80rpx;
+  height: 80rpx;
+  margin-right: 40rpx;
+  text-align: center;
+  border: 2px solid #ECECEC;
+  border-radius: 50%;
+  font-size: 34rpx;
+  line-height: 80rpx;
+  color: #ECECEC;
+}
+.right-navi-container {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 12rpx;
+  top: 130rpx;
+  font-size: 12rpx;
+  z-index: 999;
+}
+.right-navi-item {
+  position: relative;
+  width: 28rpx;
+  height: 28rpx;
+  margin-top: 6rpx;
+  text-align: center;
+  font-size: 22rpx;
+  font-family: PingFang SC, PingFang SC-Regular;
+  font-weight: bold;
+  color: #666666;
+  line-height: 28rpx;
+  border-radius: 20rpx;
+}
+.navi-hover {
+  position: absolute;
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #FFF;
+  top: -30rpx;
+  right: 50rpx;
+  width: 100rpx;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  border-radius: 50rpx;
+  background: #1890ff90;
+}
